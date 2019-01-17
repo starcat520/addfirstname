@@ -1,11 +1,6 @@
 #coding=utf-8
 import os
-#作者QQ:2635760633，版权归作者所有
-#此py文件专门为中国人,因为很多github开源代码都不加#coding=utf-8就发布，然后一大堆写了注释忘记改编码，习惯很不好不说，给其他人也带来了比较大的麻烦
-
-#还有打个小广告，最近喜欢上了手游CF(穿越火线枪战王者)，自己和朋友开发了其透视辅助，QQ群696655788
-
-print(u"打个小广告，最近喜欢上了手游CF(穿越火线枪战王者)，自己和朋友开发了其透视辅助，QQ群696655788")
+#qq2635760633
 print(".                                                                             .")
 path =  raw_input("please type the path of your project")
 
@@ -32,9 +27,3 @@ for file in list_all_files(path):
             content = f.read()
             f.seek(0, 0)
             f.write('#coding=utf-8\n' + content)
-
-
-#作者QQ:2635760633，版权归作者所有
-#此py文件专门为中国人,因为很多github开源代码都不加#coding=utf-8就发布，然后一大堆写了注释忘记改编码，习惯很不好不说，给其他人也带来了比较大的麻烦
-
-#还有打个小广告，最近喜欢上了手游CF(穿越火线枪战王者)，自己和朋友开发了其透视辅助，QQ群696655788
